@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/menu-berthom/static/css/main.97a13836.css",
-    "main.js": "/menu-berthom/static/js/main.f4ebc391.js",
+    "main.js": "/menu-berthom/static/js/main.c70a9667.js",
     "static/media/berthom.jpg": "/menu-berthom/static/media/berthom.1aa90b67090d5de121cd.jpg",
     "static/media/berthom-logo.png": "/menu-berthom/static/media/berthom-logo.dc235c1c5c5e47f8d268.png",
     "static/media/bottle.svg": "/menu-berthom/static/media/bottle.b60b215d2937fe4e1124bd9e4b49e14c.svg",
     "index.html": "/menu-berthom/index.html",
     "main.97a13836.css.map": "/menu-berthom/static/css/main.97a13836.css.map",
-    "main.f4ebc391.js.map": "/menu-berthom/static/js/main.f4ebc391.js.map"
+    "main.c70a9667.js.map": "/menu-berthom/static/js/main.c70a9667.js.map"
   },
   "entrypoints": [
     "static/css/main.97a13836.css",
-    "static/js/main.f4ebc391.js"
+    "static/js/main.c70a9667.js"
   ]
 }
