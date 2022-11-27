@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/menu-berthom/static/css/main.97a13836.css",
-    "main.js": "/menu-berthom/static/js/main.c70a9667.js",
+    "main.css": "/menu-berthom/static/css/main.15d49995.css",
+    "main.js": "/menu-berthom/static/js/main.ab9890c0.js",
+    "static/media/gluten.png": "/menu-berthom/static/media/gluten.5ba38bf354110ec2b18a.png",
+    "static/media/free.png": "/menu-berthom/static/media/free.f5322777ae7e49ffa424.png",
     "static/media/berthom.jpg": "/menu-berthom/static/media/berthom.1aa90b67090d5de121cd.jpg",
+    "static/media/roboto-regular-webfont.woff": "/menu-berthom/static/media/roboto-regular-webfont.66675fb26706ba3bd6c3.woff",
+    "static/media/chunkfive-regular-webfont.woff": "/menu-berthom/static/media/chunkfive-regular-webfont.38c97860c10ea10af196.woff",
+    "static/media/milk.png": "/menu-berthom/static/media/milk.5308f7e0efd30ffa7ae0.png",
+    "static/media/roboto-regular-webfont.woff2": "/menu-berthom/static/media/roboto-regular-webfont.275e74944bca2c23afc7.woff2",
+    "static/media/chunkfive-regular-webfont.woff2": "/menu-berthom/static/media/chunkfive-regular-webfont.a0cb8034f90d16efebba.woff2",
+    "static/media/bio.png": "/menu-berthom/static/media/bio.3b549ae678297d660640.png",
     "static/media/berthom-logo.png": "/menu-berthom/static/media/berthom-logo.dc235c1c5c5e47f8d268.png",
     "static/media/bottle.svg": "/menu-berthom/static/media/bottle.b60b215d2937fe4e1124bd9e4b49e14c.svg",
     "index.html": "/menu-berthom/index.html",
-    "main.97a13836.css.map": "/menu-berthom/static/css/main.97a13836.css.map",
-    "main.c70a9667.js.map": "/menu-berthom/static/js/main.c70a9667.js.map"
+    "main.15d49995.css.map": "/menu-berthom/static/css/main.15d49995.css.map",
+    "main.ab9890c0.js.map": "/menu-berthom/static/js/main.ab9890c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.97a13836.css",
-    "static/js/main.c70a9667.js"
+    "static/css/main.15d49995.css",
+    "static/js/main.ab9890c0.js"
   ]
 }
