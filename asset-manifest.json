@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Lesberthom/static/css/main.a358b5d3.css",
+    "main.js": "/Lesberthom/static/js/main.519f1048.js",
+    "static/media/berthom.jpg": "/Lesberthom/static/media/berthom.1aa90b67090d5de121cd.jpg",
+    "static/media/berthom-logo.png": "/Lesberthom/static/media/berthom-logo.dc235c1c5c5e47f8d268.png",
+    "static/media/bottle.svg": "/Lesberthom/static/media/bottle.b60b215d2937fe4e1124bd9e4b49e14c.svg",
+    "index.html": "/Lesberthom/index.html",
+    "main.a358b5d3.css.map": "/Lesberthom/static/css/main.a358b5d3.css.map",
+    "main.519f1048.js.map": "/Lesberthom/static/js/main.519f1048.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a358b5d3.css",
+    "static/js/main.519f1048.js"
+  ]
+}
