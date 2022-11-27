@@ -1,0 +1,185 @@
+/* GLOBAL SETTINGS ******************************************************************************/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad-big {
+  padding: 20px 10px;
+}
+
+.pad-small {
+  padding: 7px;
+}
+
+.bg-light {
+  background-color: #f2f2f2;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.color--red {
+  color: rgb(234, 97, 97);
+}
+
+.color--blue {
+  color: rgb(119, 195, 195);
+}
+
+.color--yellow {
+  color: rgb(245, 245, 95);
+}
+.shadow-red {
+  text-shadow: 1px 1px 5px rgb(211, 71, 71), -1px -1px 5px rgb(255, 168, 168);
+}
+.shadow-blue {
+  text-shadow: 1px 1px 5px rgb(98, 204, 204), -1px -1px 5px rgb(174, 255, 255);
+}
+.shadow-yellow {
+  text-shadow: 1px 1px 5px rgb(251, 251, 104), -1px -1px 5px rgb(250, 250, 165);
+}
+.shadow-red-svg {
+  filter: drop-shadow(2px 2px 5px rgb(255, 168, 168));
+}
+.shadow-blue-svg {
+  filter: drop-shadow(2px 2px 5px rgb(174, 255, 255));
+}
+.shadow-yellow-svg {
+  filter: drop-shadow(2px 2px 5px rgb(250, 250, 165));
+}
+
+.shadow-blue-svg {
+  text-shadow: 1px 1px 5px rgb(98, 204, 204), -1px -1px 5px rgb(174, 255, 255);
+}
+.shadow-yellow-svg {
+  text-shadow: 1px 1px 5px rgb(251, 251, 104), -1px -1px 5px rgb(250, 250, 165);
+}
+
+.no-visible {
+  visibility: hidden;
+}
+
+/* HEADER STYLE **************************************************************************/
+
+.header-app {
+  width: 100%;
+  height: 350px;
+  background-image: url("./assets/pictures/berthom.jpg");
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  opacity: 0.7;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+/* NAVIGATION STYLE ***************************************************************************/
+
+.search-section {
+  flex-direction: column;
+}
+
+.search-section input {
+  width: 55%;
+  margin: 7px 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  outline: none;
+}
+
+menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+menu li {
+  width: calc(100% / 8);
+  font-size: 10px;
+}
+
+/* MENU STYLE ********************************************************************************/
+
+main {
+  flex-direction: column;
+}
+
+.menu-bar {
+  width: 95%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.section-menu {
+  margin: 25px 0;
+  padding: 3px 0;
+}
+
+.menu-subtitle {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+/* FOOD ********************************************************/
+
+.name-food {
+  font-size: 14px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* DRAFT BEER *************************************************/
+
+.volume-beer {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.name-draft {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-draft div {
+  display: flex;
+  justify-content: space-between;
+}
+.name-draft div p {
+  padding: 0 10px;
+}
