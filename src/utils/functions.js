@@ -27,6 +27,6 @@ export const getAllPrices = (prices) => {
   if (Array.isArray(prices)) {
      return prices.map((price, index) => <p key={index}>{roundWithTwoNumberAfterComma(price)} €</p>);
   } else {
-    return roundWithTwoNumberAfterComma(prices);
+    return roundWithTwoNumberAfterComma(prices) + "€";
   }
 };

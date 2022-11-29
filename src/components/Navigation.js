@@ -44,14 +44,6 @@ const Navigation = ({ setSearchBeer }) => {
       </section>
       <menu className='container pad-small'>
         <AnchorMenu
-          colorLiElement='color--red shadow-red'
-          svgColor='rgb(234, 97, 97)'
-          link='#nibble'
-          content='Grignoter'
-          classSvg='shadow-red-svg'
-          food
-        />
-        <AnchorMenu
           colorLiElement='color--blue shadow-blue'
           svgColor='rgb(119, 195, 195)'
           link='#draft'

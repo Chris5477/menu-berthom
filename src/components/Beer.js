@@ -33,7 +33,7 @@ const Beer = ({ beer }) => {
       {characteristic && (
         <img className='indicator' src={information} alt="indicateur d'ingrédient" width={60} height={70} />
       )}
-      <div className='price'>{getAllPrices(prices) + "€"}</div>
+      <div className='price'>{getAllPrices(prices)}</div>
     </article>
   );
 };
