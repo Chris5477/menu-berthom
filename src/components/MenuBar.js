@@ -1,5 +1,5 @@
 import { filterBeer } from "../utils/functions";
-import { alcohol, cocktails, draft, food, freeAlcohol, rhum, whiskies } from "../utils/menu";
+import { alcohol, cocktails, draft, food, freeAlcohol, rhum, whiskies, wine } from "../utils/menu";
 import Beer from "./Beer";
 import DraftBeer from "./DraftBeer";
 import Drink from "./Drink";
@@ -52,26 +52,32 @@ const MenuBar = () => {
           <Beer key={beer.id} beer={beer} />
         ))}
       </section>
-      <section className='section-menu bg-red' id='alcohol'>
-        <h2 className='menu-subtitle color--red'>Rhums</h2>
+      <section className='section-menu bg-red' id='bitter'>
+        <h2 className='menu-subtitle color--red'>Vins</h2>
+        {wine.map((item) => (
+          <Drink key={item.id} drink={item} />
+        ))}
+      </section>
+      <section className='section-menu bg-blue' id='alcohol'>
+        <h2 className='menu-subtitle color--blue'>Rhums</h2>
         {rhum.map((drink) => (
           <Drink key={drink.id} drink={drink} />
         ))}
       </section>
-      <section className='section-menu bg-blue'>
-        <h2 className='menu-subtitle color--blue'>Whiskies</h2>
+      <section className='section-menu bg-yellow'>
+        <h2 className='menu-subtitle color--yellow'>Whiskies</h2>
         {whiskies.map((drink) => (
           <Drink key={drink.id} drink={drink} />
         ))}
       </section>
-      <section className='section-menu bg-yellow'>
-        <h2 className='menu-subtitle color--yellow'>Cocktails</h2>
+      <section className='section-menu bg-red'>
+        <h2 className='menu-subtitle color--red'>Cocktails</h2>
         {cocktails.map((drink) => (
           <Drink key={drink.id} drink={drink} />
         ))}
       </section>
-      <section className='section-menu bg-red'>
-        <h2 className='menu-subtitle color--red'>Alcools</h2>
+      <section className='section-menu bg-yellow'>
+        <h2 className='menu-subtitle color--yellow'>Alcools</h2>
         {alcohol.map((drink) => (
           <Drink key={drink.id} drink={drink} />
         ))}

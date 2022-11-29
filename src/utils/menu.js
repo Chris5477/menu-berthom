@@ -741,6 +741,21 @@ export const whiskies = [
   },
 ];
 
+export const wine =  [
+  {
+    id: "cha12",
+    name: "Chardonnay",
+    volume: 12.5,
+    prices: 4.5,
+  },
+  {
+    id: "cot13",
+    name: "Côte du rhône",
+    volume: 12.5,
+    prices: 4.5,
+  },
+];
+
 export const cocktails = [
   {
     id: "g12",
