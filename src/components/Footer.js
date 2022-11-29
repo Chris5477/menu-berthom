@@ -27,7 +27,7 @@ const Footer = () => {
       </section>
       <section className='warning'>
         {informations.map(({ id, source, txtAlt, legend }) => (
-          <Legend key={id} source={source} alt={txtAlt} content={legend} w={80} h={80} />
+          <Legend key={id} source={source} alt={txtAlt} content={legend} w={40} h={40} />
         ))}
       </section>
     </footer>

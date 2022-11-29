@@ -3,58 +3,58 @@ export const draft = [
     id: "a10",
     name: "Bels Pils",
     prices: [3.5, 6.3, 5.0],
-    strength: 5.0,
+    strength: "5.0 %",
   },
   {
     id: "a11",
     name: "Vedett Extra White",
     prices: [4.3, 7.7, 5.8],
-    strength: 4.7,
+    strength: "4.7 %",
   },
   {
     id: "a12",
     name: "Faro Lindemans",
     prices: [4.0, 7.2, 6.5],
-    strength: 4.5,
+    strength: "4.5 %",
   },
   {
     id: "a13",
     name: "Maredsous blonde",
     prices: [4.0, 7.2, 5.2],
-    strength: 6.5,
+    strength: "6.5 %",
   },
   {
     id: "a14",
     name: "Machette",
     specificity: "double IPA",
     prices: [4.6, 8.3, 5.8],
-    strength: 7.6,
+    strength: "7.6 %",
   },
   {
     id: "a15",
     name: "La chouffe",
     prices: [4.2, 7.6, 5.4],
-    strength: 8.0,
+    strength: "8.0 %",
   },
   {
     id: "a16",
     name: "Houblon Chouffe",
     specificity: "IPA",
     prices: [4.8, 8.6, 6.3],
-    strength: 9.0,
+    strength: "9.0 %",
   },
   {
     id: "a17",
     name: "Vedett IPA",
     specificity: "IPA",
     prices: [4.4, 7.9, 5.6],
-    strength: 5.0,
+    strength: "5.0 %",
   },
   {
     id: "a18",
     name: "Maredsous Brune",
     prices: [4.4, 7.9, 5.9],
-    strength: 8.0,
+    strength: "8.0 %",
   },
 ];
 
@@ -68,7 +68,7 @@ export const beers = [
     volume: 25,
     dominance: "Acidulée",
     tags: ["Douce", "Sucrée", "Bonbon"],
-    strength: 5.0,
+    strength: "5.0 %",
     prices: 4.5,
   },
   {
@@ -80,7 +80,7 @@ export const beers = [
     volume: 33,
     dominance: "Acidulée",
     tags: ["Boisée", "Cerise", "Amande"],
-    strength: 6.2,
+    strength: "6.2 %",
     prices: 6.4,
   },
   {
@@ -92,7 +92,7 @@ export const beers = [
     volume: 33,
     dominance: "Acidulée",
     tags: ["Citron", "Bois", "Pomme"],
-    strength: 7.3,
+    strength: "7.3 %",
     prices: 6.4,
   },
   {
@@ -104,7 +104,7 @@ export const beers = [
     volume: 33,
     dominance: "Acidulée",
     tags: ["Douce", "Vineuse", "fruits des bois"],
-    strength: 8.0,
+    strength: "8.0 %",
     prices: 7.2,
   },
   {
@@ -116,7 +116,7 @@ export const beers = [
     volume: 33,
     dominance: "Acidulée",
     tags: ["Boisée", "Cerise", "Amande"],
-    strength: 5.0,
+    strength: "5.0 %",
     prices: 7.3,
   },
   {
@@ -128,7 +128,7 @@ export const beers = [
     volume: 37.5,
     dominance: "Acidulée",
     tags: ["Sèche", "Pomme acide", "Citron", "Foin"],
-    strength: 5.5,
+    strength: "5.5 %",
     prices: 7.4,
   },
   {
@@ -141,7 +141,7 @@ export const beers = [
     volume: 33,
     dominance: "Acidulée",
     tags: ["Fruits murs", "Epices", "Cannelle"],
-    strength: 10.0,
+    strength: "10 %",
     prices: 8.0,
   },
   {
@@ -154,7 +154,7 @@ export const beers = [
     volume: 25,
     dominance: "Sucrée",
     tags: ["Fruits rouges", "Céréales", "Bonbon acidulé"],
-    strength: 0.5,
+    strength: "0.5 %",
     prices: 4.2,
   },
   {
@@ -166,7 +166,7 @@ export const beers = [
     volume: 25,
     dominance: "Sucrée",
     tags: ["Acidulée", "Bonbon", "Pomme"],
-    strength: 3.5,
+    strength: "3.5 %",
     prices: 4.5,
   },
   {
@@ -178,7 +178,7 @@ export const beers = [
     volume: 25,
     dominance: "Sucrée",
     tags: ["Douce", "Framboise", "Légère"],
-    strength: 2.5,
+    strength: "2.5 %",
     prices: 5.2,
   },
   {
@@ -190,7 +190,7 @@ export const beers = [
     volume: 25,
     dominance: "Sucrée",
     tags: ["Douce", "Pêche", "Acidulée"],
-    strength: 2.5,
+    strength: "2.5 %",
     prices: 5.2,
   },
   {
@@ -202,7 +202,7 @@ export const beers = [
     volume: 33,
     dominance: "Sucrée",
     tags: ["Douce", "Cerise", "Boisée"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 5.6,
   },
   {
@@ -214,7 +214,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Agrumes", "Céréales", "Coriandre"],
-    strength: 5.5,
+    strength: "5.5 %",
     prices: 4.0,
   },
   {
@@ -227,7 +227,7 @@ export const beers = [
     volume: 25,
     dominance: "Douce",
     tags: ["Céreales", "Fruits jaunes", "Épicée"],
-    strength: 5.5,
+    strength: "5.5 %",
     prices: 4.3,
   },
   {
@@ -239,7 +239,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Maltée", "Épicée", "Biscuit"],
-    strength: 6.7,
+    strength: "6.7 %",
     prices: 5.2,
   },
   {
@@ -251,7 +251,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Pétillante", "Désaltérante", "Herbe"],
-    strength: 6.5,
+    strength: "6.5 %",
     prices: 5.5,
   },
   {
@@ -263,7 +263,7 @@ export const beers = [
     volume: 50,
     dominance: "Douce",
     tags: ["Maltée", "Blé", "Épices", "Banane"],
-    strength: 5.8,
+    strength: "5.8 %",
     prices: 5.8,
   },
   {
@@ -276,7 +276,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Grain", "Fruits jaune"],
-    strength: 0.0,
+    strength: "0.0 %",
     prices: 5.9,
   },
   {
@@ -288,7 +288,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Ronde", "Maltée", "slisée    ", "Épices"],
-    strength: 8.0,
+    strength: "8.0 %",
     prices: 6.4,
   },
   {
@@ -300,7 +300,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Moelleuse", "agrumes", "fruitée"],
-    strength: 8.1,
+    strength: "8.1 %",
     prices: 6.3,
   },
   {
@@ -312,7 +312,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Ronde", "Céréales", "Caramélisée", "Épices"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 6.3,
   },
   {
@@ -324,7 +324,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Ronde", "Fruitée", "Épicée", "Grain"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 6.3,
   },
   {
@@ -337,7 +337,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Fruitée", "Florale", "Végétale"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 6.3,
   },
   {
@@ -350,7 +350,7 @@ export const beers = [
     volume: 50,
     dominance: "Douce",
     tags: ["Intensément fumée", "Boisée", "Épicée"],
-    strength: 5.1,
+    strength: "5.1 %",
     prices: 6.5,
   },
   {
@@ -362,7 +362,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Maltée", "Caramélisée", "Écorce d'orange"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 6.5,
   },
   {
@@ -374,7 +374,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Fruitée", "Réglisse", "Caramel"],
-    strength: 9.2,
+    strength: "9.2 %",
     prices: 6.5,
   },
   {
@@ -386,7 +386,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Ronde", "Amère", "Pétillante"],
-    strength: 9.5,
+    strength: "9.5 %",
     prices: 6.5,
   },
   {
@@ -399,7 +399,7 @@ export const beers = [
     volume: 50,
     dominance: "Douce",
     tags: ["Fruitée", "Épicée", "Céreales"],
-    strength: 8.2,
+    strength: "8.2 %",
     prices: 6.9,
   },
   {
@@ -411,7 +411,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Florale", "Céreales", "Mandarine"],
-    strength: 5.0,
+    strength: "5.0 %",
     prices: 7.2,
   },
   {
@@ -424,7 +424,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Cacao", "Miel", "Baies"],
-    strength: 7.8,
+    strength: "7.8 %",
     prices: 7.2,
   },
   {
@@ -436,7 +436,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Fruitée", "Racine", "Chocolat noir"],
-    strength: 11.3,
+    strength: "11 %",
     prices: 7.2,
   },
   {
@@ -448,7 +448,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Moelleuse", "Café", "Caramel salé"],
-    strength: 10.5,
+    strength: "10 %",
     prices: 7.8,
   },
   {
@@ -460,7 +460,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Fruits secs", "Bois", "Cognac"],
-    strength: 9.5,
+    strength: "9.5 %",
     prices: 8.0,
   },
   {
@@ -473,7 +473,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Onctueuse", "Cacao", "Pimentée"],
-    strength: 12.0,
+    strength: "12 %",
     prices: 8.8,
   },
   {
@@ -485,7 +485,7 @@ export const beers = [
     volume: 33,
     dominance: "Douce",
     tags: ["Caramel", "Café", "Noix de coco"],
-    strength: 12.5,
+    strength: "12 %",
     prices: 8.8,
   },
   {
@@ -497,7 +497,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Sèche", "Zestes d'orange", "Zeste de citron"],
-    strength: 8.5,
+    strength: "8.5 %",
     prices: 6.2,
   },
   {
@@ -509,7 +509,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Sèche", "Zestes", "Herbe coupée"],
-    strength: 4.6,
+    strength: "4.6 %",
     prices: 5.7,
   },
   {
@@ -522,7 +522,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Résine", "Zestes de citron", "Céréales"],
-    strength: 0.5,
+    strength: "0.5 %",
     prices: 5.8,
   },
   {
@@ -534,7 +534,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Sèche", "Poivrée"],
-    strength: 6.2,
+    strength: "6.2 %",
     prices: 5.8,
   },
   {
@@ -546,7 +546,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Sèche", "Banane", "Agrumes"],
-    strength: 9.5,
+    strength: "9.5 %",
     prices: 6.2,
   },
   {
@@ -558,7 +558,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Orange", "Caramel", "Épices", "Réglisse"],
-    strength: 6.6,
+    strength: "6.6 %",
     prices: 6.7,
   },
   {
@@ -570,7 +570,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Fruits jaune", "Fruits tropicaux", "Céréales", "Épices"],
-    strength: 6.2,
+    strength: "6.2 %",
     prices: 6.9,
   },
   {
@@ -583,7 +583,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Fruitée", "Pamplemousse", "Épicée"],
-    strength: 9.5,
+    strength: "9.5 %",
     prices: 7.5,
   },
   {
@@ -595,7 +595,7 @@ export const beers = [
     volume: 37.5,
     dominance: "Amère",
     tags: ["Sèche", "Moelleuse", "Houblonnée"],
-    strength: 9.5,
+    strength: "9.5 %",
     prices: 7.0,
   },
   {
@@ -607,7 +607,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Sèche", "Pamplemousse", "Fruits exotiques"],
-    strength: 6.1,
+    strength: "6.1 %",
     prices: 7.5,
   },
   {
@@ -620,7 +620,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Agrumes", "Épices", "Résine"],
-    strength: 6.0,
+    strength: "6.0 %",
     prices: 7.8,
   },
   {
@@ -633,7 +633,7 @@ export const beers = [
     volume: 33,
     dominance: "Amère",
     tags: ["Torréfiée", "Café", "Agrumes"],
-    strength: 6.0,
+    strength: "6.0 %",
     prices: 7.8,
   },
   {
@@ -646,7 +646,7 @@ export const beers = [
     volume: 44,
     dominance: "Amère",
     tags: ["Torréfiée", "Café", "Agrumes"],
-    strength: 6.5,
+    strength: "6.5 %",
     prices: 8.0,
   },
   {
@@ -658,7 +658,7 @@ export const beers = [
     volume: 44,
     dominance: "Amère",
     tags: ["Fruitée", "Caramel", "Résine"],
-    strength: 9.0,
+    strength: "9.0 %",
     prices: 8.4,
   },
 ];
@@ -669,7 +669,7 @@ export const rhum = [
     name: "Clairin Communal",
     volume: 4,
     tags: ["Fruité", "Floral", "Végétal", "Foin coupé"],
-    strength: 43,
+    strength: "43 %",
     prices: 6.9,
   },
   {
@@ -677,7 +677,7 @@ export const rhum = [
     name: "Plantation Pineapple",
     volume: 4,
     tags: ["Ananas", "Caramel"],
-    strength: 40,
+    strength: "40 %",
     prices: 7.4,
   },
   {
@@ -685,7 +685,7 @@ export const rhum = [
     name: "Fair XO",
     volume: 4,
     tags: ["Rond", "Fruit sec", "Vanille", "Épicé"],
-    strength: 40,
+    strength: "40 %",
     prices: 7.4,
   },
   {
@@ -693,7 +693,7 @@ export const rhum = [
     name: "Kirk'n Sweeney",
     volume: 4,
     tags: ["Fruit sec", "Caramel", "Vanille"],
-    strength: 40,
+    strength: "40 %",
     prices: 8.4,
   },
   {
@@ -701,7 +701,7 @@ export const rhum = [
     name: "Hampden 8 ans",
     volume: 4,
     tags: ["Fruit mûr", "Épicé", "Boisé"],
-    strength: 46,
+    strength: "46 %",
     prices: 9.2,
   },
 ];
@@ -712,7 +712,7 @@ export const whiskies = [
     name: "Kavalan DS n°1",
     volume: 4,
     tags: ["Fruité", "Caramel"],
-    strength: 40,
+    strength: "40 %",
     prices: 8.5,
   },
   {
@@ -720,7 +720,7 @@ export const whiskies = [
     name: "Nikka Coffee Grain",
     volume: 4,
     tags: ["Rond", "Céréales", "Fruité"],
-    strength: 45,
+    strength: "45 %",
     prices: 8.8,
   },
   {
@@ -728,7 +728,7 @@ export const whiskies = [
     name: "Kilchoman Machir Bay",
     volume: 4,
     tags: ["Fumé", "Iodé"],
-    strength: 46,
+    strength: "46 %",
     prices: 8.8,
   },
   {
@@ -736,7 +736,7 @@ export const whiskies = [
     name: "Redbreast 12 ans",
     volume: 4,
     tags: ["Fruité", "Floral", "Miel"],
-    strength: 40,
+    strength: "40 %",
     prices: 9.2,
   },
 ];
@@ -827,21 +827,21 @@ export const alcohol = [
     id: "h11",
     name: "Martini Blanc ou Rouge",
     volume: 6,
-    strength: 14.4,
+    strength: "14 %",
     prices: 4.0,
   },
   {
     id: "h12",
     name: "Vodka Potocki",
     volume: 6,
-    strength: 40,
+    strength: "40 %",
     prices: 9.0,
   },
   {
     id: "h13",
     name: "Gin Nikka Coffey Grain",
     volume: 4,
-    strength: 47,
+    strength: "47 %",
     prices: 9.0,
   },
 ];
@@ -855,7 +855,7 @@ export const freeAlcohol = [
     specificity: "Bière aux fruits",
     volume: 25,
     tags: ["Sucrée", "Fruits rouges", "Céréales", "Bonbon acidulé"],
-    strength: 0.5,
+    strength: "0.5 %",
     prices: [4.0, 2.95],
   },
   {
@@ -866,7 +866,7 @@ export const freeAlcohol = [
     characteristic: "Sans alcool",
     volume: 33,
     tags: ["Amère", "Résine", "Zestes de citron", "Céréales"],
-    strength: 0.5,
+    strength: "0.5 %",
     prices: [5.8, 4.2],
   },
   {

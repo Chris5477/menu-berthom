@@ -3,9 +3,9 @@ import { getAllPrices } from "../utils/functions";
 const Drink = ({ drink }) => {
   const { name, volume, prices, strength, tags } = drink;
   return (
-    <article className='bottle-beer'>
+    <article className='bottle-beer pad-big'>
       <h2 className='name-drink'>
-        {name.toUpperCase()} {volume} cl  {strength ? " . " + strength + "%" : ""}
+        {name.toUpperCase()}. {volume} cl {strength && " . " + strength}
       </h2>
 
       {tags && <p className='tag'>{tags.join(", ")}</p>}

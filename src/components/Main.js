@@ -1,8 +1,8 @@
 import Legend from "./Legend";
 import MenuBar from "./MenuBar";
 import Navigation from "./Navigation";
-import ResultSearch from "./ResultSearch";
 import { indicator } from "../utils/indicator";
+import Beer from "./Beer";
 
 const Main = ({ resultSearchBeer, setSearchBeer }) => {
   return (
@@ -11,7 +11,12 @@ const Main = ({ resultSearchBeer, setSearchBeer }) => {
       {resultSearchBeer.length === 0 ? (
         <MenuBar />
       ) : (
-        resultSearchBeer.map((beer) => <ResultSearch key={beer.id} beer={beer} />)
+        <section className='container section-menu pad-big'>
+          <h2 className='menu-subtitle bg-light color--red'>Résultat</h2>
+          {resultSearchBeer.map((beer) => (
+            <Beer key={beer.id} beer={beer} />
+          ))}
+        </section>
       )}
       <section className='container legend-section'>
         <h2 className='txt-center pad-big'>Légende</h2>

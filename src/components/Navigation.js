@@ -18,11 +18,11 @@ const Navigation = ({ setSearchBeer }) => {
 
   return (
     <nav className='container bg-dark'>
-      <section id='search-beer' className='search-section container flex-center'>
+      <section id='search-beer' className='search-section container'>
         <h2 aria-hidden='true' className='no-visible'>
           title
         </h2>
-        <label htmlFor='beers' id='search-beers' className='color--yellow'>
+        <label htmlFor='beers' id='search-beers' className='pad-big color--yellow'>
           Quelle type de bière voulez-vous ?
         </label>
         <input

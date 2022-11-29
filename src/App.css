@@ -76,7 +76,7 @@
 }
 
 .color--yellow {
-  color: rgb(245, 245, 95);
+  color: rgb(244, 244, 28);
 }
 .shadow-red {
   text-shadow: 1px 1px 5px rgb(211, 71, 71), -1px -1px 5px rgb(255, 168, 168);
@@ -113,17 +113,22 @@
 /* NAVIGATION STYLE ***************************************************************************/
 
 .search-section {
-  flex-direction: column;
+  text-align: center;
 }
 
 .search-section input {
-  width: 55%;
-  margin: 7px 0;
+  width: 85%;
+  margin: 15px 0;
   font-size: 14px;
   font-weight: 600;
   border-radius: 10px;
   border: 2px solid yellow;
   outline: none;
+}
+
+#search-beer label{
+  font-size: 5vw;
+  font-family: "chunkfiveregular";
 }
 
 menu {
@@ -140,6 +145,8 @@ menu li {
 menu li p {
   padding: 5px 0;
 }
+
+
 
 /* MENU STYLE ********************************************************************************/
 
@@ -165,7 +172,8 @@ main {
   padding: 5px 10px;
   background-color: white;
   font-family: chunkfiveregular;
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 3px 3px 1px black;
+  letter-spacing: 2px;
 }
 
 /* FOOD ********************************************************/
@@ -177,6 +185,11 @@ main {
 .item {
   display: flex;
   justify-content: space-between;
+  border: 2px solid white;
+}
+
+.item div {
+  font-weight: bold;
 }
 
 /* DRAFT BEER *************************************************/
@@ -184,10 +197,17 @@ main {
 .volume-beer {
   display: flex;
   justify-content: flex-end;
-  font-weight: 800;
-  font-size: 3.3vw;
+}
+
+.volume-beer span {
+  padding: 20px 15px 20px 5px;
   text-align: center;
-  padding-right: 10px;
+  font-size: 3vw;
+  font-weight: 800;
+}
+
+.draft-beer {
+  border: 2px solid white;
 }
 
 .name-draft {
@@ -201,28 +221,27 @@ main {
   justify-content: space-between;
 }
 .name-draft div p {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 /* BEER *************************************************************/
 .bottle-beer {
   position: relative;
   border-bottom: 6px solid white;
-  padding: 40px 20px;
 }
 
 .bottle-beer h2 {
-  font-size: 5vw;
-}
-
-.specificity {
   font-size: 4vw;
 }
 
+.specificity {
+  font-size: 3vw;
+}
+
 .tag {
-  font-size: 4.3vw;
+  font-size: 3vw;
   font-weight: 600;
-  padding: 5px 0;
+  padding: 5px 50px 5px 0;
 }
 
 .indicator {
@@ -235,10 +254,15 @@ main {
 
 .price {
   position: absolute;
-  bottom: 5%;
+  bottom: 25%;
   right: 5%;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 700;
+}
+
+.quantity{
+  padding: 10px 0;
+  font-size:4vw;
 }
 
 /* LEGEND ****************************************/
@@ -261,7 +285,7 @@ main {
 
 .social-network {
   background-color: rgb(255, 200, 20);
-  padding: 20px 0;
+  padding: 10px 0;
   flex-direction: column;
 }
 
@@ -281,5 +305,6 @@ main {
   width: 50%;
   height: auto;
   flex-direction: column;
-  color: yellow;
+  color: #ffc836;
+  font-size: 3.2vw;
 }

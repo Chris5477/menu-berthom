@@ -17,9 +17,9 @@ const MenuBar = () => {
       <section className='section-menu bg-blue' id='draft'>
         <h2 className='menu-subtitle color--blue'>Bières pressions </h2>
         <p className='volume-beer container'>
-          <span className='pad-small'>DEMI</span>
-          <span className='pad-small'>PINTE</span>
-          <span className='pad-small'>
+          <span>DEMI</span>
+          <span>PINTE</span>
+          <span>
             HAPPY <br />
             HOUR
           </span>

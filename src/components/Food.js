@@ -3,11 +3,11 @@ import { getAllPrices } from "../utils/functions";
 const Food = ({ food }) => {
   const { name, prices, weight } = food;
   return (
-    <article className='item pad-small'>
+    <article className='item pad-big'>
       <h2 className='name-food'>
-        {name.toUpperCase()}
+        {name.toUpperCase()} . {weight} g
       </h2>
-      <div>{weight} g . {getAllPrices(prices)} € </div> 
+      <div> {getAllPrices(prices)} </div>
     </article>
   );
 };
