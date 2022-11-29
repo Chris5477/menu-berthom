@@ -3,6 +3,7 @@ import "../assets/icons/bottle.svg";
 const AnchorMenu = ({ colorLiElement, svgColor, content, link, classSvg }) => {
   return (
     <li className='txt-center'>
+<a className={colorLiElement} href={link}>
       <svg
         enableBackground='new 0 0 64 64'
         id='Layer_1_1_'
@@ -43,7 +44,6 @@ const AnchorMenu = ({ colorLiElement, svgColor, content, link, classSvg }) => {
           </g>
         </g>
       </svg>
-      <a className={colorLiElement} href={link}>
         <p>{content}</p>
       </a>
     </li>
