@@ -82,7 +82,7 @@ const Navigation = ({ setSearchBeer }) => {
           colorLiElement='color--red shadow-red'
           svgColor='rgb(234, 97, 97)'
           link='#alcohol'
-          content='Alcools/vins'
+          content='Alcools'
           classSvg='shadow-red-svg'
         />
         <AnchorMenu

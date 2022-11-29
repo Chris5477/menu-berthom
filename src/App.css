@@ -110,12 +110,15 @@
   position: relative;
 }
 
+.package{
+  width: 100%;
+}
+
 .slider-content {
   font-family: chunkfiveregular;
-  font-size: 9vw;
+  font-size: 7vw;
   color: #ffc836;
   max-height: 200px;
-  text-align: center;
 }
 
 /* NAVIGATION STYLE ***************************************************************************/
