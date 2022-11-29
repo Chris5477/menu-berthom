@@ -9,7 +9,7 @@ import Main from "./components/Main";
 const App = () => {
 
   const getHour = new Date().getHours()
-  const isHappyHour = getHour >=19 && getHour <=21
+  const isHappyHour = getHour >=19 && getHour <21
 
   const [searchBeer, setSearchBeer] = useState([])
   const [HH, setHH] = useState(isHappyHour)
