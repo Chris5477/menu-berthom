@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/menu-berthom/static/css/main.f604cff1.css",
-    "main.js": "/menu-berthom/static/js/main.c36c8dfa.js",
+    "main.css": "/menu-berthom/static/css/main.5795196f.css",
+    "main.js": "/menu-berthom/static/js/main.e28f3204.js",
     "static/media/gluten.png": "/menu-berthom/static/media/gluten.5ba38bf354110ec2b18a.png",
     "static/media/free.png": "/menu-berthom/static/media/free.f5322777ae7e49ffa424.png",
     "static/media/roboto-regular-webfont.woff": "/menu-berthom/static/media/roboto-regular-webfont.66675fb26706ba3bd6c3.woff",
@@ -20,12 +20,12 @@
     "static/media/instagram.svg": "/menu-berthom/static/media/instagram.3227226e412971376eafe0c40bb5220a.svg",
     "static/media/facebook.svg": "/menu-berthom/static/media/facebook.e6a2655e87d0ace832fe4381bdec2af2.svg",
     "index.html": "/menu-berthom/index.html",
-    "static/media/car.svg": "/menu-berthom/static/media/car.1e821b56c5ab2bbea7fe6af8f6175baa.svg",
-    "main.f604cff1.css.map": "/menu-berthom/static/css/main.f604cff1.css.map",
-    "main.c36c8dfa.js.map": "/menu-berthom/static/js/main.c36c8dfa.js.map"
+    "static/media/car.svg": "/menu-berthom/static/media/car.ec0aeae53c13b1e67fb564bc2accfcc7.svg",
+    "main.5795196f.css.map": "/menu-berthom/static/css/main.5795196f.css.map",
+    "main.e28f3204.js.map": "/menu-berthom/static/js/main.e28f3204.js.map"
   },
   "entrypoints": [
-    "static/css/main.f604cff1.css",
-    "static/js/main.c36c8dfa.js"
+    "static/css/main.5795196f.css",
+    "static/js/main.e28f3204.js"
   ]
 }
