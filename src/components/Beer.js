@@ -15,7 +15,7 @@ const Beer = ({ beer }) => {
       </h2>
 
       <h3 className="specificity">
-        {specificity} | {brewery} {strength} %
+        {specificity} | {brewery} {strength} 
       </h3>
       <p className="specificity">{alt}</p>
       <p className='tag'>{tags.join(", ")} </p>
