@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/menu-berthom/static/css/main.ee1c6acd.css",
-    "main.js": "/menu-berthom/static/js/main.264377c7.js",
+    "main.css": "/menu-berthom/static/css/main.8f5b7c2c.css",
+    "main.js": "/menu-berthom/static/js/main.e1769503.js",
     "static/media/gluten.png": "/menu-berthom/static/media/gluten.5ba38bf354110ec2b18a.png",
     "static/media/beer.png": "/menu-berthom/static/media/beer.5c9fb70be27890b5aa7d.png",
     "static/media/pwperspective-webfont.woff": "/menu-berthom/static/media/pwperspective-webfont.361118ee7bde71848f52.woff",
@@ -27,11 +27,11 @@
     "static/media/facebook.svg": "/menu-berthom/static/media/facebook.e6a2655e87d0ace832fe4381bdec2af2.svg",
     "index.html": "/menu-berthom/index.html",
     "static/media/car.svg": "/menu-berthom/static/media/car.ec0aeae53c13b1e67fb564bc2accfcc7.svg",
-    "main.ee1c6acd.css.map": "/menu-berthom/static/css/main.ee1c6acd.css.map",
-    "main.264377c7.js.map": "/menu-berthom/static/js/main.264377c7.js.map"
+    "main.8f5b7c2c.css.map": "/menu-berthom/static/css/main.8f5b7c2c.css.map",
+    "main.e1769503.js.map": "/menu-berthom/static/js/main.e1769503.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee1c6acd.css",
-    "static/js/main.264377c7.js"
+    "static/css/main.8f5b7c2c.css",
+    "static/js/main.e1769503.js"
   ]
 }
