@@ -1,34 +1,13 @@
-import packBeer from "../assets/pictures/packagebeer.png";
+import SliderOne from "../components/SlideOne";
+import SliderThree from "../components/SliderThree";
+import SlideTwo from "../components/slideTwo";
+
 export const slider = (index) => {
   if (index === 0) {
-    return (
-      <h2 className='slider-content flex-center'>
-        Bière au fût/bouteille <br /> à découvrir
-      </h2>
-    );
+    return <SliderOne />;
   } else if (index === 1) {
-    return <img className="package" src={packBeer} alt='bière à emporter' width={350} height={200} />;
-  } else if (index === 2) {
-    return (
-      <>
-        <h2 className='flex-center slider-content'>
-          Horaire d'ouverture
-          <br />
-          Lundi au jeudi : 17h - 01h
-          <br />
-          Samedi : 17h - 02h    
-          <br />
-          Dimanche : 17h - 00h
-        </h2>
-      </>
-    );
+    return <SlideTwo />;
   } else {
-    return (
-      <>
-        <h2 className='flex-center slider-content'>
-          HAPPY HOUR <br /> de 19 h à 21 h
-        </h2>
-      </>
-    );
+    return <SliderThree />;
   }
 };
