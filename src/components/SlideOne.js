@@ -14,7 +14,7 @@ const SliderOne = () => {
       <div className='aa'>
         <p className='letter'>HOUR</p>
       </div>
-      <p className='hour'>DE 19 H À 21 H</p>
+      <p className='txt-hour'>DE 19 H À 21 H</p>
       <img className='beer' src={beer} alt='beer' width='160' height='180' />
     </div>
   );

@@ -110,7 +110,7 @@
   position: relative;
 }
 
-.package{
+.package {
   width: 100%;
 }
 
@@ -344,11 +344,11 @@ main {
   }
 
   90% {
-    transform: scale(1.2);
+    transform: scale(1.5) skew(10deg);
   }
 
   100% {
-    transform: scale(1);
+    transform: scale(1) skew(20deg);
     opacity: 1;
   }
 }
