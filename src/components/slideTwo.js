@@ -8,7 +8,7 @@ const SlideTwo = () => {
         <div className='txt'>
           <img src={packagebeer} alt='bottle of beer' width='220' height='400' />
           <h1>
-            BIÈRES <br />À EMPORTER
+            BIÈRES A<br /> EMPORTER
           </h1>
         </div>
         <ul className='circles'>
